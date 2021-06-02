@@ -1,0 +1,36 @@
+{
+  "name": "gsheets-params",
+  "version": "0.1.0",
+  "description": "Google sheets params builder",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totoblabla3/gsheets-params.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "gs",
+    "gsheets",
+    "google sheets",
+    "sheets",
+    "params",
+    "builder",
+    "api"
+  ],
+  "author": {
+    "name": "Sergey Vasilev",
+    "email": "sv35093@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^74.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
